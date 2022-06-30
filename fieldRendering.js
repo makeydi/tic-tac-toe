@@ -35,6 +35,7 @@ function renderingField(n,m){
           progress = "X";
         }
         this.removeEventListener("click", setValue);
+        myBranch
         numberOfSteps++;
         checkWinner();
         function checkWinner() {
